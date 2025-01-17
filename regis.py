@@ -6,7 +6,7 @@ def get_db_connection():
     return mysql.connector.connect(
         host='localhost',
         user='root',
-        password='mdSakib@2002',
+        password='Enter your password',
         database='wzbgui'  # Fixed `_Database` to `database`
     )
 
